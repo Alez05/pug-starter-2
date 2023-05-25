@@ -1,0 +1,14 @@
+{
+  "list": [
+    {
+      "link": "/",
+      "label": "home",
+      "title": "Check the main landing page"
+    },
+    {
+      "link": "/contact",
+      "label": "contact",
+      "title": "How to get in touch with me"
+    }
+  ]
+}
