@@ -75,11 +75,23 @@ The `index.pug` file will generate `index.html` in the root of the `dist` direct
 
 All other `.pug` files will generate a directory named after the original file and an `index.html` file inside it.
 
-### Styling
+### Styling and Performance Optimization
 
-The starter template includes an `embed.scss` file, which is compiled to CSS and injected as a <style> tag in the head of each HTML file.
+The styling in the starter template is designed to optimize the critical rendering path and improve the First Contentful Paint (FCP) performance of your web pages.
 
-You can customize the styles by modifying the `embed.scss` file or by creating additional Sass files and importing them into `embed.scss`.
+#### Embedding Critical CSS
+
+The embed.scss file plays a crucial role in optimizing the critical rendering path. It contains the CSS styles that are essential for rendering the above-the-fold content of your web pages. This critical CSS is then compiled into a `<style>` tag and injected directly into the `<head>` section of each HTML file. By embedding the critical CSS, you ensure that the necessary styles are available early in the rendering process, reducing the time it takes for the browser to render the initial content. This can significantly improve the perceived performance of your website.
+
+#### Deferred Styling with look.scss
+
+In addition to the critical CSS, the starter template includes a look.scss file. This file contains non-critical styles that are not required for the initial rendering of the above-the-fold content. Instead of including these styles directly in the embedded CSS, the look.scss file is treated as a deferred style that doesn't block the loading and rendering of the page. It is included as a separate CSS file (main.css) using the `<link> `tag.
+
+By deferring non-critical styles, you allow the browser to prioritize the loading and rendering of the main content without being delayed by unnecessary styles. This approach can help improve the overall performance of your website and provide a smoother user experience.
+
+To customize the styles, you can modify the embed.scss file for critical CSS and create additional Sass files, such as look.scss, for non-critical styles. Remember to import the necessary files into embed.scss or any other entry point file for proper compilation and bundling.
+
+Optimizing the critical rendering path and deferring non-critical styles are important considerations for web performance. By using the provided embedding and deferred styling techniques, you can enhance the loading and rendering experience of your web pages.
 
 ## Contributing
 
