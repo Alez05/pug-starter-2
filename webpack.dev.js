@@ -9,7 +9,7 @@ module.exports = merge(commonConfig, {
   plugins: [
     new HtmlWebpackPlugin({
       filename: 'index.html',
-      template: './source-code/index.pug',
+      template: './src/index.pug',
       templateParameters: {
         ...jsonData,
         embedStyles,

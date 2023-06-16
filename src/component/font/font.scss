@@ -1,0 +1,110 @@
+// @import 'variables';
+
+// @font-face {
+//   font-family: '#{$icomoon-font-family}';
+//   src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?lz1rl6')
+//       format('truetype'),
+//     url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?lz1rl6')
+//       format('woff'),
+//     url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?lz1rl6##{$icomoon-font-family}')
+//       format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+//   font-display: block;
+// }
+
+// [class^='re-'],
+// [class*=' re-'] {
+//   /* use !important to prevent issues with browser extensions that change fonts */
+//   font-family: '#{$icomoon-font-family}' !important;
+//   font-style: normal;
+//   font-weight: normal;
+//   font-variant: normal;
+//   text-transform: none;
+//   line-height: 1;
+
+//   /* Better Font Rendering =========== */
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+
+// .re-home {
+//   &:before {
+//     content: $re-home;
+//   }
+// }
+// .re-image {
+//   &:before {
+//     content: $re-image;
+//   }
+// }
+// .re-books {
+//   &:before {
+//     content: $re-books;
+//   }
+// }
+// .re-profile {
+//   &:before {
+//     content: $re-profile;
+//   }
+// }
+// .re-bubble {
+//   &:before {
+//     content: $re-bubble;
+//   }
+// }
+// .re-rocket {
+//   &:before {
+//     content: $re-rocket;
+//   }
+// }
+// .re-fire {
+//   &:before {
+//     content: $re-fire;
+//   }
+// }
+// .re-menu3 {
+//   &:before {
+//     content: $re-menu3;
+//   }
+// }
+// .re-menu4 {
+//   &:before {
+//     content: $re-menu4;
+//   }
+// }
+// .re-terminal {
+//   &:before {
+//     content: $re-terminal;
+//   }
+// }
+// .re-mail2 {
+//   &:before {
+//     content: $re-mail2;
+//   }
+// }
+// .re-instagram {
+//   &:before {
+//     content: $re-instagram;
+//   }
+// }
+// .re-whatsapp {
+//   &:before {
+//     content: $re-whatsapp;
+//   }
+// }
+// .re-twitter {
+//   &:before {
+//     content: $re-twitter;
+//   }
+// }
+// .re-youtube {
+//   &:before {
+//     content: $re-youtube;
+//   }
+// }
+// .re-github {
+//   &:before {
+//     content: $re-github;
+//   }
+// }

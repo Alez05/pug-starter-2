@@ -1,0 +1,34 @@
+{
+  "list": [
+    {
+      "link": "/",
+      "label": "home",
+      "title": "Check the main landing page"
+    },
+    {
+      "link": "/contact",
+      "label": "contact",
+      "title": "How to get in touch with me"
+    },
+    {
+      "link": "/about",
+      "label": "about",
+      "title": "About me"
+    },
+    {
+      "link": "/blog",
+      "label": "blog",
+      "title": "My blog"
+    },
+    {
+      "link": "/projects",
+      "label": "projects",
+      "title": "My projects"
+    },
+    {
+      "link": "/resume",
+      "label": "resume",
+      "title": "My resume"
+    }
+  ]
+}

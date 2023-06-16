@@ -3,7 +3,7 @@ const fs = require('fs')
 const yaml = require('js-yaml')
 
 // The path to your JSON files
-let dataDirectory = path.join(__dirname, './source-code/data')
+let dataDirectory = path.join(__dirname, './src/data')
 
 // Get the list of JSON files
 let dataFiles = fs
